@@ -626,6 +626,11 @@ img {
   .home__img {
       display: none;
   }
+
+  .discount__img {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 340px) {
