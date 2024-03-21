@@ -366,6 +366,7 @@ img {
 /*=============== SPECS Right ===============*/
 .specsr__container {
   position: relative;
+  right: -4rem;
 }
 
 .specsr__content {
@@ -398,8 +399,7 @@ img {
 .specsr__img {
   width: 250px;
   position: absolute;
-  top: 2rem;
-  right: -4rem;
+  left: -4rem;
 }
 
 /*=============== CASE ===============*/
@@ -654,6 +654,11 @@ img {
   }
   .specsr__img {
     width: 200px;
+    left: -2rem;
+    top: 2rem;
+  }
+  .specsr__container {
+    right: -3rem;
   }
   .case__container {
     grid-template-columns: repeat(2, 1fr);
@@ -687,7 +692,15 @@ img {
   .specs__img {
     position: initial;
   }
+  .specsr__img {
+    position: initial;
+  }
   .specs__container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+  .specsr__container {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
@@ -699,10 +712,10 @@ img {
     padding: 0;
   }
   .case__container {
-    grid-template-columns: max-content 250px;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
-    column-gap: 2rem;
+    column-gap: 5rem;
   }
   .discount__img {
     position: initial;
@@ -760,7 +773,7 @@ img {
   .case__container {
     column-gap: 5rem;
   }
-  .case__img {
+  .specsr__img {
     width: 300px;
   }
   .case__description {
