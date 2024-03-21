@@ -366,7 +366,7 @@ img {
 /*=============== SPECS Right ===============*/
 .specsr__container {
   position: relative;
-  right: -4rem;
+  right: 5rem;
 }
 
 .specsr__content {
@@ -633,7 +633,7 @@ img {
 
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 575px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -706,9 +706,7 @@ img {
     align-items: center;
   }
   .specsr__container {
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-items: center;
+    right: 1rem;
   }
   .case__img {
     position: initial;
