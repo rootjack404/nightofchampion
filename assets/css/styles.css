@@ -415,7 +415,7 @@ img {
 .case__img {
   width: 250px;
   position: absolute;
-  left: -10;
+  left: -8rem;
 }
 
 .case__description {
