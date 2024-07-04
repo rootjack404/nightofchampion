@@ -331,9 +331,14 @@ img {
   width: 90px;
 }
 
+.sponsor__wideimg {
+  width: 170px;
+}
+
 .sponsor__container {
   grid-template-columns: repeat(7, 1fr);
   row-gap: 10rem;
+  margin-bottom: 3rem;
   justify-items: center;
   align-items: center;
 }
@@ -342,6 +347,13 @@ img {
   grid-template-columns: repeat(3, 1fr);
   row-gap: 5rem;
   margin-bottom: 3rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.sponsor2__container {
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 5rem;
   justify-items: center;
   align-items: center;
 }
