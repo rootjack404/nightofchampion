@@ -329,6 +329,10 @@ img {
   width: 90px;
 }
 
+.sponsor__wideimg {
+  width: 180px;
+}
+
 .sponsor__container {
   grid-template-columns: repeat(7, 1fr);
   row-gap: 10rem;
